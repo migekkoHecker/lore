@@ -95,6 +95,27 @@
             line-height: 1.6;
         }
 
+        /* Container voor meerdere kleine afbeeldingen */
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .image-grid img {
+            width: 150px;
+            height: auto;
+            border: 2px solid #0d47a1;
+            border-radius: 4px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px #64b5f6;
+        }
+
         footer {
             background-color: #0d47a1;
             color: #fff;
@@ -107,6 +128,9 @@
             nav a {
                 display: block;
                 margin: 5px 0;
+            }
+            .image-grid {
+                justify-content: center;
             }
         }
     </style>
@@ -128,6 +152,13 @@
         <h2>Spawnville</h2>
         <p>In het hart van het SMP-land lag een kleine, vredige stad genaamd <strong>Spawnville</strong>. Het was een plek waar nieuwe spelers aankwamen, hun eerste huizen bouwden en handel dreven op het centrale plein. Alles leek rustig en voorspelbaar… totdat <strong>lucm123456</strong> en <strong>meneer_kat</strong> besloten een grote, vreemde toren te bouwen aan de rand van de stad.</p>
         <img src="https://media.discordapp.net/attachments/1416313903834464402/1416815979689938955/2025-09-14_18.00.37.png?ex=68c83834&is=68c6e6b4&hm=5af64311b4faf48e28fb8b5547e02d5881e14c6176dc9c4975093bd09bbeecf6&=&format=webp&quality=lossless&width=1376&height=774" alt="Spawnville afbeelding">
+        
+        <!-- Extra kleine propaganda afbeeldingen -->
+        <div class="image-grid">
+            <img src="propaganda1.jpg" alt="Propaganda poster 1">
+            <img src="propaganda2.jpg" alt="Propaganda poster 2">
+            <img src="propaganda3.jpg" alt="Propaganda poster 3">
+        </div>
     </section>
 
     <section id="section2">
@@ -135,13 +166,24 @@
         <p>De toren was gigantisch, gemaakt van donkere materialen en bovenop stond een duidelijk symbool dat de spelers huiverig maakte: een swastika. <strong>lucm123456</strong> en <strong>meneer_kat</strong> noemden het echter simpelweg de <strong>“Windmolen”</strong>, alsof het een vriendelijke draaiende structuur was die energie opwekte voor Spawnville. Maar al snel bleek dat de Windmolen veel meer was dan een gebouw.</p>
         <p>De bouwer riep iedereen bijeen en kondigde de <strong>Windmolen Revolutie</strong> aan. De Windmolen was het centrum van hun macht; het vertegenwoordigde een nieuwe orde waarin zij de regels van het land zouden bepalen. Sommige spelers sloten zich aan bij de revolutie, terwijl anderen zich afzijdig hielden.</p>
         <img src="https://media.discordapp.net/attachments/1416313903834464402/1416886906339328020/71EXTyXTODL.jpg?ex=68c87a42&is=68c728c2&hm=2846be15c19a6c3541a6cdd4dd4ff2e134d3983f9ad69e0538fdfa3883f4f7db&=&format=webp&width=564&height=847" alt="Windmolen Toren afbeelding">
+        
+        <div class="image-grid">
+            <img src="propaganda4.jpg" alt="Propaganda poster 4">
+            <img src="propaganda5.jpg" alt="Propaganda poster 5">
+        </div>
     </section>
 
     <section id="section3">
         <h2>Oppositie - Von’s Disciplen</h2>
-        <p>Niet iedereen was het eens met de Windmolen Revolutie. Een andere groep communistische spelers, bekend als <strong>Von’s Disciplen</strong>, verzette zich fel. Zij zagen de Windmolen als een symbool van onderdrukking en autoritarisme, en waren vastbesloten de stad en haar inwoners te beschermen tegen de groeiende invloed van de revolutie.</p>
+        <p>Niet iedereen was het eens met de Windmolen Revolutie. Een andere groep communistische spelers, bekend als <strong>Von’s Disciplen</strong>, verzette zich fel. Zij zagen de Windmolen als een symbool van onderdrukking en autoritarisme, en werden geleid door <strong>Illias</strong>, <strong>Tony</strong> en <strong>danley1908</strong>. Ze waren vastbesloten de stad en haar inwoners te beschermen tegen de groeiende invloed van de revolutie.</p>
         <p>De spanning tussen de Windmolen-aanhangers en Von’s Disciplen groeide snel. Spanningen die begonnen met woorden, escaleerden al snel naar sabotage, geheime aanvallen en strategische overnames van grondgebieden rondom Spawnville.</p>
         <img src="https://media.discordapp.net/attachments/1416313903834464402/1416884380487651513/image.png?ex=68c877e8&is=68c72668&hm=4e8598283622e25bdc123a27b9098669fa3c591e7fb8b806d12ff2082be34f78&=&format=webp&quality=lossless" alt="Von's Disciplen afbeelding">
+
+        <div class="image-grid">
+            <img src="propaganda6.jpg" alt="Propaganda poster 6">
+            <img src="propaganda7.jpg" alt="Propaganda poster 7">
+            <img src="propaganda8.jpg" alt="Propaganda poster 8">
+        </div>
     </section>
 </main>
 
